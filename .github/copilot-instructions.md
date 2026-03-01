@@ -1,0 +1,5 @@
+-   Scope: This repo contains multiple apps; only work on the Checklist app under src/Apps/Checklist unless explicitly asked otherwise.
+
+-   Checklist app context: - Work item form group adds a Checklist with Shared and Personal tabs. - Items are stored in extension data, not in work item fields. - Default checklist items are configured per work item type via the Settings hub and are merged into the Shared view on the form. - Items support required flag, optional state, labels, edit/delete, and drag reorder; completion stores user + timestamp. - User display preferences (word wrap, hide completed, show labels) are stored in local storage.
+
+-   Working instructions: - Keep changes inside src/Apps/Checklist unless asked to touch shared code. - Preserve the Personal vs Shared split and the default checklist merge behavior. - Do not move checklist data into work item fields; continue using extension data storage collections. - Respect label-based filter behavior and user display preferences. - If working on security settings, note the existing feature flag in the manifest and verify enforcement paths.

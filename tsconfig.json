@@ -25,8 +25,7 @@
         "noErrorTruncation": false,
         "paths": {
             "OfficeFabric/*": ["node_modules/office-ui-fabric-react/lib/*"],
-            "Common/*": ["src/Common/*"],
-            "BugBashPro/*": ["src/Apps/BugBashPro/scripts/*"]
+            "Common/*": ["src/Common/*"]
         },
         "types": ["react", "react-dom"],
         "plugins": [

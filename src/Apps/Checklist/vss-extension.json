@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "workitem-checklist",
-    "version": "3.2.6",
+    "id": "chc-workitem-checklist",
+    "version": "3.2.7.2",
     "name": "Work item checklist",
     "description": "Manage personal or shared checklist for a workitem.",
     "icons": {
@@ -21,7 +21,7 @@
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/mohitbagra/azure-devops-extensions"
+        "uri": "https://github.com/choareco/azure-devops-extensions"
     },
     "branding": {
         "color": "#106ebe",
@@ -76,7 +76,7 @@
                 {
                     "name": "Feature",
                     "properties": {
-                        "featureId": "mohitbagra-dev.workitem-checklist.feature-checklist-security"
+                        "featureId": "choareco-dev.chc-workitem-checklist.feature-checklist-security"
                     }
                 }
             ]

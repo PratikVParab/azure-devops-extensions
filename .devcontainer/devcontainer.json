@@ -1,0 +1,23 @@
+{
+  "name": "Azure DevOps Extensions (Node 12)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/azure-devops-extensions",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/azure-devops-extensions,type=bind",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteUser": "node"
+}
