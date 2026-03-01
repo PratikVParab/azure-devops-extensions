@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "chc-workitem-checklist",
-    "version": "3.2.7.2",
+    "id": "workitem-checklist",
+    "version": "3.2.7.6",
     "name": "Work item checklist",
     "description": "Manage personal or shared checklist for a workitem.",
     "icons": {
@@ -76,7 +76,7 @@
                 {
                     "name": "Feature",
                     "properties": {
-                        "featureId": "choareco-dev.chc-workitem-checklist.feature-checklist-security"
+                        "featureId": "choareco-dev.workitem-checklist.feature-checklist-security"
                     }
                 }
             ]

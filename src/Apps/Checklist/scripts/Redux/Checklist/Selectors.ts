@@ -129,5 +129,5 @@ function matchesFilter(checklistItem: IChecklistItem, filter: IFilterState): boo
         return false;
     }
 
-    return checklistItem.labels.some((l) => labels.indexOf(l) !== -1);
+    return checklistItem.labels.some((l) => labels.indexOf(l.toLowerCase()) !== -1);
 }
